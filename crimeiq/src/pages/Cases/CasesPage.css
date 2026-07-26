@@ -1,0 +1,11 @@
+.cases-search-bar {
+  padding: 20px;
+}
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+.pagination {
+  padding: 12px 0;
+}

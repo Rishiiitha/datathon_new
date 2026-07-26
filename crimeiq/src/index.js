@@ -1,0 +1,1 @@
+// Entry point handled by main.jsx for Vite

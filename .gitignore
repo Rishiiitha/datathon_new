@@ -1,0 +1,52 @@
+# ─── Secrets & Credentials ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ─── Node / npm ───────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp
+.pnp.js
+package-lock.json   # optional: remove this line if you want to commit lockfiles
+yarn.lock
+
+# ─── Vite / Build Output ─────────────────────────────────────────────────────
+crimeiq/dist/
+crimeiq/.vite/
+crimeiq/build/
+crimeiq/coverage/
+
+# ─── Zoho Catalyst ───────────────────────────────────────────────────────────
+.catalystrc           # contains your personal project ID & domain — do NOT commit
+.build/
+.catalyst/
+
+# ─── OS Artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ─── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+.cache/
+tmp/
+temp/

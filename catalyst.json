@@ -1,0 +1,22 @@
+{
+  "functions": {
+    "source": "functions",
+    "targets": [
+      "admin-function",
+      "analytics-function",
+      "chat-function",
+      "export-function",
+      "financial-function",
+      "forecast-function",
+      "investigation-function",
+      "network-function",
+      "profiling-function",
+      "seed-function",
+      "test-function",
+      "voice-function"
+    ]
+  },
+  "client": {
+    "source": "crimeiq/dist"
+  }
+}

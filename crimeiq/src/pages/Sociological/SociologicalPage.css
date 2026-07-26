@@ -1,0 +1,13 @@
+.socio-insights-card {
+  border-left: 4px solid var(--accent-cyan);
+}
+.socio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 900px) {
+  .socio-grid {
+    grid-template-columns: 1fr;
+  }
+}

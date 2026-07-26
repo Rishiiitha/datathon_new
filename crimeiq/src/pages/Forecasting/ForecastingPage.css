@@ -1,0 +1,46 @@
+.forecasting-layout {
+  display: flex;
+  gap: 20px;
+}
+.controls-panel {
+  width: 240px;
+  min-width: 240px;
+  height: fit-content;
+}
+.forecasting-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.control-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.control-group label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.alerts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.alert-card-red {
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  background: rgba(248, 113, 113, 0.06);
+  box-shadow: 0 0 15px rgba(248, 113, 113, 0.1);
+}
+
+@media (max-width: 900px) {
+  .forecasting-layout {
+    flex-direction: column;
+  }
+  .controls-panel {
+    width: 100%;
+  }
+}

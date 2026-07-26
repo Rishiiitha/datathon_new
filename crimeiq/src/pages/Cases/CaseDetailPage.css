@@ -1,0 +1,28 @@
+.case-header-card {
+  border-top: 3px solid var(--accent-cyan);
+}
+.ai-insights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.similar-cases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.similar-card {
+  padding: 12px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.leads-list {
+  list-style: none;
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .ai-insights-grid {
+    grid-template-columns: 1fr;
+  }
+}
