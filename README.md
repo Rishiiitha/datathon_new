@@ -3,6 +3,10 @@
 > **AI-powered conversational crime intelligence system built for Karnataka Police.**  
 > Natural-language queries → SQL → structured investigation insights, repeat-offender graphs, forecasting, and multilingual (English + Kannada) support.
 
+deployed in zoho-catalyst: https://meridian-60078546885.development.catalystserverless.in/app/financial
+
+had fun and easy work using it.
+
 ---
 
 ## Table of Contents
@@ -476,5 +480,5 @@ Released under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Built with ❤️ for Karnataka Police · Powered by Zoho Catalyst + React + LLM
+  Signing off - Team Meridian :)
 </p>
